@@ -2,32 +2,32 @@ import Footer from "../components/footer/Fott";
 import Nav from "../components/header/Nav";
 
 
-const resources = [
-  {
-    title: "Shipping Guidelines",
-    desc: "Learn how to package and ship your goods safely and efficiently.",
-  },
-  {
-    title: "Tracking Your Order",
-    desc: "Step-by-step guide on how to track your shipments in real time.",
-  },
-  {
-    title: "Delivery Policies",
-    desc: "Understand our delivery timelines, coverage, and terms.",
-  },
-  {
-    title: "Business Logistics Tips",
-    desc: "Optimize your logistics strategy for better efficiency.",
-  },
-  {
-    title: "FAQs & Help Docs",
-    desc: "Find answers to commonly asked questions.",
-  },
-  {
-    title: "Safety & Handling",
-    desc: "Best practices for handling fragile and sensitive goods.",
-  },
-];
+// const resources = [
+//   {
+//     title: "Shipping Guidelines",
+//     desc: "Learn how to package and ship your goods safely and efficiently.",
+//   },
+//   {
+//     title: "Tracking Your Order",
+//     desc: "Step-by-step guide on how to track your shipments in real time.",
+//   },
+//   {
+//     title: "Delivery Policies",
+//     desc: "Understand our delivery timelines, coverage, and terms.",
+//   },
+//   {
+//     title: "Business Logistics Tips",
+//     desc: "Optimize your logistics strategy for better efficiency.",
+//   },
+//   {
+//     title: "FAQs & Help Docs",
+//     desc: "Find answers to commonly asked questions.",
+//   },
+//   {
+//     title: "Safety & Handling",
+//     desc: "Best practices for handling fragile and sensitive goods.",
+//   },
+// ];
 
 const Resources: React.FC = () => {
   return (
