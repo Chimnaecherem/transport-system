@@ -4,6 +4,7 @@ import { ShieldCheck, Globe, Users, Award, Zap } from 'lucide-react';
 import Footer from '../footer/Footer';
 import Fott from '../footer/Fott';
 import Nav from '../header/Nav';
+import all from '../../assets/all.png'
 
 const About = () => {
   const stats = [
@@ -91,7 +92,7 @@ const About = () => {
         {/* Placeholder for an Image */}
         <div className="bg-slate-100 h-96 rounded-3xl overflow-hidden relative shadow-2xl">
            <div className="absolute inset-0 flex items-center justify-center text-gray-400 font-medium italic">
-             [Insert Image of SwiftHaul Delivery Truck or Warehouse]
+            <img src={all} alt="" className='md: h-full'/>
            </div>
         </div>
       </section>

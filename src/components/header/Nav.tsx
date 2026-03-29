@@ -48,6 +48,8 @@ function Nav() {
           <ul className="menu dropdown-content  rounded-box z-1 w-52 shadow-sm  bg-blue-600  px-2 ">
             <li><Link to="/about">About</Link></li>
             <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/resources">Resources</Link></li>
+            <li><Link to="/products">Support</Link></li>
           </ul>
         </details>
 
